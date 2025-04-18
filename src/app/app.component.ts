@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-
+  
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  selector: 'app-header',
+  standalone: true,
+  styleUrls: [],
+  templateUrl: './app.component.html'
 })
+export class HeaderComponent {}
+
+
 export class AppComponent {
   title = 'first-angular-app';
 }
